@@ -1,0 +1,16 @@
+div.profile {
+  font-size: calc(8px + 2vmin);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8rem 2.5rem 5rem 2.5rem;
+  align-items: center;
+}
+
+.avatar {
+  margin-bottom: 2rem;
+}
+
+.username {
+  font-weight: bolder;
+}

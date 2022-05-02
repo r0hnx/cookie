@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Roboto Mono, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  overflow: auto;
+  overflow-wrap: normal;
+  width: 300px;
+}
+
+div.container-fluid > div.options {
+  min-width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 999 !important;
+}
+
+@media screen and (max-width: 360px) {
+  html,
+  body,
+  nav {
+    min-width: 360px;
+  }
+}
+
+.banner {
+  user-select: none;
+}
+
+.navigation > .banner {
+  color: white;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "walnut",
+  "version": "1.0.0",
+  "description": "Light weight Password Manager",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.mjs",
+    "dev": "nodemon ./index.mjs"
+  },
+  "author": "r0hnx",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.12"
+  }
+}

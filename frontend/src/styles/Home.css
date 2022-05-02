@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.content > small {
+  max-width: 350px;
+  font-size: calc(2px + 2vmin);
+}

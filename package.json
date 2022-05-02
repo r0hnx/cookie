@@ -1,0 +1,29 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "A password manager",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd ./backend && node index.mjs",
+    "frontend": "cd ./frontend && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "proxy": "http://localhost:5000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0hnx/cookie.git"
+  },
+  "keywords": [
+    "password",
+    "manager"
+  ],
+  "author": "r0hnx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0hnx/cookie/issues"
+  },
+  "homepage": "https://github.com/r0hnx/cookie#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

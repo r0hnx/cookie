@@ -1,0 +1,59 @@
+div.welcome {
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 1.5rem;
+}
+
+div.main,
+div.loading {
+  padding: 8rem 2.5rem 5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.website,
+.header-info {
+  max-width: 480px;
+  margin-bottom: 25px;
+  width: -webkit-fill-available;
+  flex-direction: column;
+}
+
+.badge {
+  margin-right: 1rem;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-top > span,
+.card-text > span {
+  cursor: pointer;
+}
+
+.card-top > span {
+  font-size: larger;
+  position: relative;
+  left: 20px;
+  top: -22px;
+}
+
+.card-body > .card-top > img {
+  height: 52px;
+  width: 52px;
+  margin-bottom: 1rem;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.card.card-body {
+  box-shadow: lightgrey 0px 0px 8px 0px;
+}
+
+.card-text > small {
+  margin-top: 1rem;
+  font-size: calc(6px + 1vmin);
+}

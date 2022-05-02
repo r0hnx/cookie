@@ -1,0 +1,37 @@
+nav {
+  background-color: #282c34;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.events {
+  display: flex;
+}
+
+.events > div {
+  margin-left: 40px;
+  font-size: calc(7px + 2vmin);
+}
+
+@media screen and (max-width: 650px) {
+  div.version {
+    display: none;
+  }
+  .events > div {
+    margin-left: 2rem;
+  }
+}
